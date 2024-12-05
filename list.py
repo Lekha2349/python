@@ -1,0 +1,12 @@
+l1=[1,2,"python",3.3]
+l1.reverse()
+print(l1)
+l1.copy()
+print(l1)
+print(type(l1))
+occurances=l1.count(2)
+print(occurances)
+#l1.clear()
+#print(l1)
+indexed_number=l1.index(3.3,0,len(l1))
+print(indexed_number)

@@ -1,0 +1,16 @@
+s1={1,2,3,4}
+#print(type(s1))
+s2={4,6,7}
+a=s1.union(s2)
+print(a)
+b=s1.intersection(s2)
+print(b)
+s1.intersection_update(s2)
+print(s1)
+s3={4,9,1}
+s4={2,3,6,7}
+print(s3.issubset(s4))
+print(s4.issuperset(s3))
+print(s3.isdisjoint(s4))
+result=s3.symmetric_difference(s4)
+print(result)

@@ -1,0 +1,2 @@
+# super().__init__(title, author) in Python is used to call the initializer of the superclass (Superclass in this case) within the subclass (Subclass). 
+# This ensures that any initialization logic defined in the superclass is executed before the subclass-specific initialization code. This is a fundamental concept in Python's approach to inheritance and object-oriented pro

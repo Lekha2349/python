@@ -1,0 +1,1 @@
+bj=b"".join([bytearray])
